@@ -4,7 +4,7 @@
 ## Overview
 ![SIM-AID](sim-aid.png)
 
-SIM-AID is a two step process to convert any black-box medical image diagnostic model into one that is interpretable and accompanied by expert annotations. We discard the prediction layer of the model and instead perform a supervised dimensionality reduction based on the features computed by the model for a knowledge base. Specialists can then examine the dataset from a "birds-eye view," identify edge cases, surprises, and annotate data at scale to support the medical practioner making the diagnosis. In phase II, new scans are entered into the knowledge base by embedding their features into the same latent space, allowing for similar examples and multiple plausible diagnoses to be retrieved and considered in goood faith before coming to a decision. 
+SIM-AID is a two step process to convert any black-box medical image diagnostic model into one that is interpretable and accompanied by expert annotations. At first, we discard the classification layer of the model and instead perform a supervised dimensionality reduction based on the features computed by the model across a database of images. Specialists can then examine the database from a "birds-eye view," identify edge cases or surprises, and annotate data at scale to support the medical practioner making the diagnosis. In phase II, new scans are entered into the database by embedding their features into the same latent space, allowing for similar examples and multiple plausible diagnoses to be retrieved and considered before coming to a decision. 
 
 ## Setups
 
