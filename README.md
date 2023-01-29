@@ -1,13 +1,10 @@
 
 # SIM-AID: A Simple Framework for Interpretable AI Diagnostics
-<!-- [![Version](https://img.shields.io/badge/Version-v0.1.0-blue?color=FF8000?color=009922)](https://img.shields.io/badge/Version-v0.1.0-blue) -->
-<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT) -->
-<!-- [![ICLR](https://img.shields.io/badge/ICLR%20Submission-Under%20Review-blueviolet)](https://openreview.net/forum?id=y_sZyxuuFh3) -->
 
 ## Overview
 ![SIM-AID](sim-aid.png)
 
-SIM-AID is a two step process to 
+SIM-AID is a two step process to convert any black-box medical image diagnostic model into one that is interpretable and accompanied by lab technicians annotations. 
 
 ## Setups
 
@@ -46,7 +43,6 @@ cd data
 bash download_downstream.sh
 ```
 
-
 ## Phase I: Labelling
 ```bash
 python app.py
@@ -59,6 +55,8 @@ npm run dev
 ```
 
 ## Screenshots
+![phaseI](phaseI.png)
+![phaseII](phaseII.png)
 
 
 ## Citations
