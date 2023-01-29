@@ -55,7 +55,7 @@ npm run dev
 
 ## Screenshots
 ![phaseI](phaseI.png)
-![phaseII](phaseII.png)
+![phaseII](phaseII.jpeg)
 
 
 ## Citations
